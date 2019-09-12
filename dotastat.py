@@ -64,3 +64,5 @@ for n in range(len(games.loc[:,'Radiant'])):
         wij[index_dict[j],index_dict[i]] += 1
 
 print(wij)
+
+#Solve Bradley Terry Models using the logit-linear form (fits the assignment better)
